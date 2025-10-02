@@ -25,14 +25,6 @@ A clean and responsive HTML & CSS website that showcases the latest Apple produc
 
 ---
 
-### 🖼 Preview
-
-![Project Preview](bg.jpg)
-
-> 🔍 *Note: This is a static showcase. All pages are built with static HTML & CSS.*
-
----
-
 ### 🚀 How to Use
 
 1. Clone or download the repository.
@@ -44,7 +36,7 @@ A clean and responsive HTML & CSS website that showcases the latest Apple produc
 ### 📬 Contact
 
 Have feedback or suggestions?  
-Reach out via [Contact Page](iletisim.html) or connect on [Instagram](https://instagram.com/musttafauygun).
+Reach out via connect on [Instagram](https://instagram.com/musttafauygun).
 
 ---
 
