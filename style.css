@@ -1,0 +1,293 @@
+.Index{
+	background-image: url("img/bg.jpg");
+	background-size: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+.IndexDiv{
+	background-color: white;
+	min-height: 70vh;
+}
+
+#ayirici{
+  height: 1px;
+  width: 1000px;
+  background-color: #d2d2d2;
+  margin-top: 10px;
+}
+
+.IndexDiv ol{
+	list-style-type: none;
+}
+
+#header{
+	background-color: #f8f8f8;
+	padding: 20px;
+}
+#logo{
+	float: left;
+	margin-left: 15%;
+	margin-right: 15px;
+}
+
+#logo h1{
+	float: right;
+	margin-left: 15px;
+}
+
+#logo img{
+	width: 70px;
+	margin: 0;
+	padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+#logo img:hover{
+  transform: scale(1.1);
+}
+
+#menu{
+	float: right;
+	margin-right: 15%;
+	margin-top: 20px;
+	font-size: 25px;
+  
+}
+
+#menu a{
+  display: block;
+  position: relative;
+}
+
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+
+#menu ul li:not(:last-child)::after{
+	content: "|";
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #333;
+}
+
+#menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+#menu a::before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: black;
+  transition: 0.5s transform ease;
+  transform: scale3d(0,1,1);
+  transform-origin: 0 50%;
+}
+#menu a:hover::before{
+  transform: scale3d(1,1,1);
+}
+.menu1 a::before{
+  background: black;
+  transform-origin: 100% 50%;
+}
+.menu1 a:hover::before{
+  transform-origin: 0 50%;
+}
+
+#icerik{
+	padding: 20px;
+	margin: 0 15%;
+}
+
+#footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .footer-icerik {
+    text-align: center;
+  }
+  
+  .footer-icerik .sol,
+  .footer-icerik .sag {
+    width: 30%;
+    float: left;
+  }
+  
+  .footer-icerik .orta {
+    width: 40%;
+    float: left;
+  }
+  
+  .footer-icerik .sag ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-icerik .sag ul li {
+    display: block; /* Dikey olarak görünmesi için blok olarak ayarlayın */
+  }
+  
+  .footer-icerik .sag ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  #footeriletisim {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 230px;
+  }
+  
+  .footer-icerik-iletisim {
+    text-align: center;
+  }
+  
+  .footer-icerik-iletisim .sol-iletisim,
+  .footer-icerik-iletisim .sag-iletisim {
+    width: 30%;
+    float: left;
+  }
+  
+  .footer-icerik-iletisim .orta-iletisim {
+    width: 40%;
+    float: left;
+  }
+  
+  .footer-icerik-iletisim .sag-iletisim ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-icerik-iletisim .sag-iletisim ul li {
+    display: block;
+  }
+  
+  .footer-icerik-iletisim .sag-iletisim ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  #İletisimFormu{
+  	width: 100%;
+  	background-color: #fff;
+  	padding: 20px;
+  	margin-top: 90px;
+  }
+
+
+  #İletisimFormu table,tr,td{
+  	border: none;
+  	padding: 3px;
+  }
+  #İletisimFormu input{
+  	padding: 5px;
+  }
+
+  #İletisimFormu input[type=submit]{
+  	border: none;
+  	border-radius: 10px;
+  	background-color: orange;
+  	padding: 10px 30px 10px 30px;
+  	cursor: pointer;
+  	color: white;
+  }
+
+  h1{
+  	text-align: center;
+  }
+
+  .urunler{
+  	background-color: #fff;
+  	padding: 20px;
+  	margin-bottom: 20px;
+  }
+
+  .urunler img{
+  	height: auto;
+  	display: block;
+  	margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .urunler img:hover{
+    transform: scale(1.1);
+  }
+
+  .urunler h2{
+  	font-size: 20px;
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+
+  #ozellik p{
+    color: gray;
+  }
+
+  .iphone16 img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .iphone16 img:hover{
+    transform: scale(1.1);
+  }
+
+  .watch10 img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .watch10 img:hover{
+    transform: scale(1.1);
+  }
+
+  .macbook img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .macbook img:hover{
+    transform: scale(1.1);
+  }
+
+  .airpods4 img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .airpods4 img:hover{
+    transform: scale(1.1);
+  }
+
+  .appletv img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .appletv img:hover{
+    transform: scale(1.1);
+  }
+
+  .homepod img{
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .homepod img:hover{
+    transform: scale(1.1);
+  }
