@@ -27,7 +27,7 @@ A clean and responsive HTML & CSS website that showcases the latest Apple produc
 
 ### 🖼 Preview
 
-![Project Preview](img/bg.jpg)
+![Project Preview](bg.jpg)
 
 > 🔍 *Note: This is a static showcase. All pages are built with static HTML & CSS.*
 
